@@ -7,7 +7,7 @@ import ButtonCompo from "../shared/Button";
 
 const Navbar = () => {
   return (
-    <nav className="container pt-[32px]">
+    <nav className="container section-spacing pt-[32px]">
       <div className="flex justify-between items-center">
         <div className="">
           <BrandLogoIcon />
@@ -25,7 +25,9 @@ const Navbar = () => {
               );
             })}
 
-            <ButtonCompo value="contact" />
+          <button className="custom-center custom-bg-gradient px-[24px] py-[12px] rounded-[80px] text-white">
+            Contact
+          </button>
         </ul>
       </div>
     </nav>

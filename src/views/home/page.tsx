@@ -1,9 +1,13 @@
-import BannerSection from "@/components/bannner.tsx/page";
+import BannerSection from "@/components/bannner/page";
+import Contactsection from "@/components/contact/page";
+import ServiceSection from "@/components/services/page";
 
 const HomeView = () => {
   return (
     <>
       <BannerSection />
+      <ServiceSection />
+      <Contactsection />
     </>
   );
 };

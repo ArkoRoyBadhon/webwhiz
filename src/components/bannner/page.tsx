@@ -8,21 +8,24 @@ import ShareIcon from "@/utils/shareIcon";
 
 const BannerSection = () => {
   return (
-    <section className="container pt-[100px]">
-      <div className="flex justify-between w-full gap-[20px]">
+    <section className="container section-spacing pt-[53px]">
+      <div className="flex justify-between w-full gap-[20px] items-center">
         <div className="">
           <div className="">
             <p className="custom-banner-title">Turning</p>
             <p className="custom-banner-title">
-              <span className="custom-text-gradient">Imagination</span> into
+              <span className="custom-text-gradient mr-[-9px]">
+                Imagination
+              </span>{" "}
+              into
             </p>
-            <div className="">
-              <p className="custom-banner-title text-blue">Innovation</p>
-            </div>
+            <p className="custom-banner-title text-blue mt-[21px]">
+              Innovation
+            </p>
           </div>
           <div className="relative">
             <div className="absolute w-[4px] h-[65px] left-0 top-1 custom-bg-gradient rounded-[16px]"></div>
-            <p className="w-[554px] text-[16px] font-normal leading-[25.6px] mt-[16px] ml-[12px]">
+            <p className="w-[554px] text-[16px] font-normal leading-[25.6px] mt-[16px] ml-[16px]">
               Welcome to my digital playground, where creativity knows no
               bounds. I'm a passionate designer and developer on a mission to
               turn innovative ideas into stunning digital realities.
@@ -30,12 +33,14 @@ const BannerSection = () => {
           </div>
           <div className="flex gap-[12px] mt-[24px]">
             <ButtonCompo value="Hire me" />
-            <ButtonCompo value="view portfolio" />
+            <button className="outline w-[143px] px-[24px] py-[12px] flex justify-center items-center rounded-[80px] custom-text-gradient capitalize text-[14px] font-semibold leading-[160%] outline-[1px] outline-blue-500">
+              View Portfolio
+            </button>
           </div>
         </div>
         <div className="relative w-[550px] h-[526px]">
-          <div className="absolute w-[308px] h-[481px] rounded-[16px] bg-light-orange opacity-30 top-[-25px] left-[120px]"></div>
-          <div className="flex absolute justify-center items-center w-full">
+          <div className="absolute w-[308px] h-[481px] rounded-[16px] bg-light-orange opacity-30 top-[-25px] left-[126px] mt-[45px]"></div>
+          <div className="flex absolute justify-center items-center w-full mt-[47px]">
             <Image
               className=""
               src="/desktop_img/Rectangle 54.png"
@@ -44,13 +49,13 @@ const BannerSection = () => {
               height={433}
             />
           </div>
-          <div className="absolute top-[-40px] right-[70px]">
+          <div className="absolute top-[-2px] right-[78px]">
             <Ellipse1 />
           </div>
-          <div className="absolute bottom-[60px] left-[120px]">
+          <div className="absolute bottom-[14px] left-[119px]">
             <Ellipse2 />
           </div>
-          <div className="absolute flex p-[16px] items-center gap-[8px] bg-white top-5 rounded-[12px] box-shadow">
+          <div className="absolute flex py-[11px] px-[16px] items-center gap-[8px] bg-white top-[78px] rounded-[12px] box-shadow">
             <Image
               className="rounded-[47px]"
               src="/desktop_img/Rectangle 54.png"
@@ -67,7 +72,7 @@ const BannerSection = () => {
               </p>
             </div>
           </div>
-          <div className="absolute flex p-[16px] items-center gap-[8px] bg-white top-[30%] right-0 rounded-[12px] box-shadow">
+          <div className="absolute flex py-[14px] px-[16.5px] items-center gap-[8px] bg-white top-[37.5%] right-[7px] rounded-[12px] box-shadow">
             <div className="rounded-[210px] h-[24px] w-[24px] bg-[#9965CF1A] flex justify-center items-center">
               <ProfileIcon />
             </div>
@@ -84,7 +89,7 @@ const BannerSection = () => {
               <p className="">25%</p>
             </div>
           </div>
-          <div className="absolute flex p-[16px] items-center gap-[8px] bg-white bottom-[10%] right-2 rounded-[12px] box-shadow">
+          <div className="absolute flex p-[16px] items-center gap-[8px] bg-white bottom-[0%] right-[20px] rounded-[12px] box-shadow">
             <div className="rounded-[210px] h-[47px] w-[47px] bg-[#9965CF1A] flex justify-center items-center">
               <Image
                 className=""
