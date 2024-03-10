@@ -31,7 +31,10 @@ const config: Config = {
         "color-paragraph": "#64656D",
         "light-orange": "#FF8C38",
         "orange": "#FBA017",
-        "light-grey": "#E8EFFB"
+        "light-grey": "#E8EFFB",
+        "thin-blue": "#F6F9FE",
+        "custom-dark": "#0E1025",
+        "footer-gray": "#808088",
       },
     },
   },

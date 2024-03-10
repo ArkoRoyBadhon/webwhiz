@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .container {
-  background: #fff;
+  /* background: #fff; */
   margin: 0 auto;
   max-width: 1440px;
   font-family: "Manrope", sans-serif;
@@ -22,6 +22,22 @@
 .border-bottom {
   border-bottom: solid rgba(0, 0, 0, 0.1);
 }
+
+.status-bar {
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 10px;
+  background-color: #e5e7eb;
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 110%;
+}
+
 
 @layer components {
   .custom-banner-title {

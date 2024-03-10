@@ -49,6 +49,7 @@ const Contactsection = () => {
           </div>
         </div>
         <div className=" bg-red-200 mt-[-13.5px]">
+        <div className="absolute w-[117px] h-[117px] rounded-[8px] bg-light-grey top-[-26px] left-[58%]"></div>
           <div className="absolute top-[13px] right-[-149px]">
             <Image
               src="/desktop_img/Rectangle 63.png"
@@ -57,7 +58,7 @@ const Contactsection = () => {
               width={590}
             />
           </div>
-          <div className="absolute w-[117px] h-[117px] rounded-[8px] bg-light-grey top-[-26px] left-[58%]"></div>
+          
           <div className="absolute w-[471px] h-[288px] rounded-[16px] bg-light-grey top-[31%] left-[47%] flex flex-col gap-[32px] p-[32px]">
             {contactData &&
               contactData.map((item) => {

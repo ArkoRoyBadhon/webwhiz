@@ -3,6 +3,8 @@ import ClockIcon from "../contactUsIcon/clockIcon";
 import EmailIcon from "../contactUsIcon/emailIcon";
 import OrgIcon from "../contactUsIcon/orgemailIcon";
 import PhoneIcon from "../contactUsIcon/phoneNumberIcon";
+import LocationIcon from "../footerIcon/locationIcon";
+import WebwhizIcon from "../footerIcon/webwhizIcon";
 import DevelopmentIcon from "../serviceIcons/developmentIcon";
 import DigitalIcon from "../serviceIcons/digitalIcon";
 import GraphicIcon from "../serviceIcons/graphicDesignIcon";
@@ -82,5 +84,90 @@ export const contactData = [
   {
     title: "michael.mitc@example.com",
     icon: <ClockIcon />,
+  },
+];
+
+export const AboutUsData = [
+  {
+    title: "Project Delivery",
+    number: "58",
+  },
+  {
+    title: "Happy Client",
+    number: "120",
+  },
+  {
+    title: "Yours Experience",
+    number: "32",
+  },
+];
+
+export const footerData = [
+  {
+    mainTitle: "Company",
+    links: [
+      {
+        title: "Home",
+        link: "/",
+      },
+      {
+        title: "About Us",
+        link: "/",
+      },
+      {
+        title: "Careers",
+        link: "/",
+      },
+      {
+        title: "Press",
+        link: "/",
+      },
+    ],
+  },
+  {
+    mainTitle: "Our services",
+    links: [
+      {
+        title: "UI/UX Design",
+        link: "/",
+      },
+      {
+        title: "E-comers",
+        link: "/",
+      },
+      {
+        title: "Marketing",
+        link: "/",
+      },
+      {
+        title: "Free delivery",
+        link: "/",
+      },
+    ],
+  },
+  {
+    mainTitle: "Contact",
+    links: [
+      {
+        title: "alexgoat@gmail.com",
+        icon: <EmailIcon width={20} height={20} />,
+        link: "/",
+      },
+      {
+        title: "+880 16096-55707",
+        icon: <PhoneIcon width={20} height={20} />,
+        link: "/",
+      },
+      {
+        title: "221b Baker St London",
+        icon: <LocationIcon />,
+        link: "/",
+      },
+      {
+        title: "WebWhiz.com",
+        icon: <WebwhizIcon />,
+        link: "/",
+      },
+    ],
   },
 ];
