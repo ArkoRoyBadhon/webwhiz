@@ -1,4 +1,4 @@
-const PhoneIcon = ({ width = 25, height = 25 }) => {
+const PhoneIcon = ({ width = 32, height = 32 }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

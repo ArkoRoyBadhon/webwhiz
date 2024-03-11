@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Contactsection = () => {
   return (
-    <section className="container section-spacing pt-[76px] ">
+    <section className="container section-spacing pt-[76px] min-h-[515px]">
       <div className="flex justify-between gap-[80px] relative">
         <div className="flex flex-col w-[356px] h-[282px]">
           <h5 className="text-[40px] font-extrabold leading-[140%] text-custom-black">

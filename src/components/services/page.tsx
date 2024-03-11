@@ -6,7 +6,7 @@ const ServiceSection = () => {
       <div className="section-name">services</div>
       <div className="flex items-center justify-between">
         <div className="max-w-[516px] text-custom-black text-[40px] font-extrabold leading-[140%]">
-          Our <span className="text-blue-400">satisfied customers</span> share
+          Our <span className="text-blue-400 text-mark">satisfied customers</span> share
           their stories
         </div>
         <div className="relative">

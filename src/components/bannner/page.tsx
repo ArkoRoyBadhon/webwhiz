@@ -13,15 +13,13 @@ const BannerSection = () => {
         <div className="">
           <div className="">
             <p className="custom-banner-title">Turning</p>
-            <p className="custom-banner-title">
-              <span className="custom-text-gradient mr-[-9px]">
+            <p className="custom-banner-title mt-[5.5px] mb-[8.5px]">
+              <span className="custom-text-gradient text-mark">
                 Imagination
               </span>{" "}
               into
             </p>
-            <p className="custom-banner-title text-blue mt-[21px]">
-              Innovation
-            </p>
+            <p className="custom-banner-title text-blue ">Innovation</p>
           </div>
           <div className="relative">
             <div className="absolute w-[4px] h-[65px] left-0 top-1 custom-bg-gradient rounded-[16px]"></div>
@@ -33,13 +31,13 @@ const BannerSection = () => {
           </div>
           <div className="flex gap-[12px] mt-[24px]">
             <ButtonCompo value="Hire me" />
-            <button className="outline w-[143px] px-[24px] py-[12px] flex justify-center items-center rounded-[80px] custom-text-gradient capitalize text-[14px] font-semibold leading-[160%] outline-[1px] outline-blue-500">
+            <button className="outline w-[139px] py-[12px] flex justify-center items-center rounded-[80px] custom-text-gradient capitalize text-[14px] font-semibold leading-[160%] outline-[1px] outline-blue-500">
               View Portfolio
             </button>
           </div>
         </div>
         <div className="relative w-[550px] h-[526px]">
-          <div className="absolute w-[308px] h-[481px] rounded-[16px] bg-light-orange opacity-30 top-[-25px] left-[126px] mt-[45px]"></div>
+          <div className="absolute w-[308px] h-[481px] rounded-[16px] bg-[#FFF3EB] top-[-25px] left-[126px] mt-[45px]"></div>
           <div className="flex absolute justify-center items-center w-full mt-[47px]">
             <Image
               className=""
@@ -72,8 +70,8 @@ const BannerSection = () => {
               </p>
             </div>
           </div>
-          <div className="absolute flex py-[14px] px-[16.5px] items-center gap-[8px] bg-white top-[37.5%] right-[7px] rounded-[12px] box-shadow">
-            <div className="rounded-[210px] h-[24px] w-[24px] bg-[#9965CF1A] flex justify-center items-center">
+          <div className="absolute flex py-[14px] px-[16.5px] items-center gap-[8px] bg-white top-[37.5%] right-[32px] rounded-[12px] box-shadow w-[138px]">
+            <div className="rounded-[210px] h-[32px] w-[32px] bg-[#9965CF1A] p-[8px] flex justify-center items-center">
               <ProfileIcon />
             </div>
             <div className="flex flex-col">

@@ -21,7 +21,7 @@ type ITypeFooter = {
 
 const FooterSection = () => {
   return (
-    <footer className="w-full bg-custom-dark min-h-[453px] mt-[376px]">
+    <footer className="w-full bg-custom-dark min-h-[453px] mt-[140px]">
       <div className="container section-spacing bg-transparent">
         <div className="flex justify-between pt-[32px]">
           <div className="">
@@ -62,7 +62,7 @@ const FooterSection = () => {
               <p className="text-white text-[16px] leading-[160%] font-normal">
                 Social Links
               </p>
-              <div className="absolute bg-blue-dark w-[2px] h-[27px]  left-[120px] transform top-0 rotate-[-90deg]"></div>
+              <div className="absolute bg-blue-dark w-[2px] h-[27px]  left-[108px] transform top-0 rotate-[-90deg]"></div>
               <div className="flex gap-[8px] mt-[16px]">
                 <TwitterIcon />
                 <LinkedinIcon />
@@ -76,7 +76,8 @@ const FooterSection = () => {
             {footerData &&
               footerData.map((item, i) => {
                 return (
-                  <div key={i} className="">
+                  <div key={i} className="relative">
+                    <div className="absolute bg-blue-dark w-[2px] h-[37px]  left-[17px] bottom-[153px] transform rotate-[-90deg]"></div>
                     <h5
                       className={`text-white mb-[28px] text-[20px] font-bold leading-[150%] ${
                         i === 2 && "ml-[10px]"
@@ -106,7 +107,7 @@ const FooterSection = () => {
 
         <hr className="w-[1140] bg-[#0E1025] mt-[26px] opacity-20" />
         <div className="custom-center gap-[2px] py-[16px]">
-            <Copyicon />
+          <Copyicon />
           <p className="text-[14px] leading-[160%] font-normal text-footer-gray">
             Copyright 2023 Elearner,Inc NewYork
           </p>

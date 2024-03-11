@@ -13,11 +13,11 @@ const AboutSection = () => {
   return (
     <section className="container section-spacing pt-[76px]">
       <div className="section-name">about us</div>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between mb-[4px]">
         <div className="w-[564px] text-custom-black text-[40px] font-extrabold leading-[140%]">
           <p className="">
             We are turning products into{" "}
-            <span className="text-blue-400">Timeless elegance</span>
+            <span className="text-blue-400 text-mark">Timeless elegance</span>
           </p>
         </div>
         <div className="relative">
@@ -62,15 +62,15 @@ const AboutSection = () => {
             height={417}
             width={626}
           />
-          <div className="absolute custom-bg-gradient flex w-[532px] justify-between items-center rounded-[12px] right-[-51px] bottom-[-28px] p-[31px]">
+          <div className="absolute custom-bg-gradient flex w-[532px] justify-between items-center rounded-[12px] right-[-51px] bottom-[-24px] p-[31px]">
             {AboutUsData &&
               AboutUsData.map((item, i) => {
                 return (
                   <div className={`relative ${i === 0 && "pl-[0.5px]"}`}>
                     {i > 1 ? (
                       <></>
-                    ) : (<></>
-                      // <div className="absolute w-[2px] h-[60px] rounded-[16px] bg-light-grey right-0"></div>
+                    ) : (
+                      <div className="absolute w-[2px] h-[60px] rounded-[16px] bg-light-grey right-[-31px]"></div>
                     )}
                     <p className="text-white text-[24px] font-extrabold leading-[140%] text-center">
                       {item?.number}+

@@ -38,6 +38,21 @@
   height: 110%;
 }
 
+.text-mark {
+  position: relative;
+}
+
+.text-mark::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 23%;
+  width: 100%;
+  height: 18px;
+  background-color: #d1def7;
+  z-index: -1;
+}
+
 
 @layer components {
   .custom-banner-title {

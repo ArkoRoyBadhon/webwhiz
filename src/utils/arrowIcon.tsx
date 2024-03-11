@@ -1,4 +1,4 @@
-const ArrowIcon = ({ width = 25, height = 25 }) => {
+const ArrowIcon = ({ width = 25, height = 25, stroke="white" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -9,7 +9,7 @@ const ArrowIcon = ({ width = 25, height = 25 }) => {
     >
       <path
         d="M19 5L5 19"
-        stroke="white"
+        stroke={stroke}
         stroke-width="1.5"
         stroke-miterlimit="10"
         stroke-linecap="round"
@@ -17,7 +17,7 @@ const ArrowIcon = ({ width = 25, height = 25 }) => {
       />
       <path
         d="M19 15.27V5H8.73"
-        stroke="white"
+        stroke={stroke}
         stroke-width="1.5"
         stroke-miterlimit="10"
         stroke-linecap="round"

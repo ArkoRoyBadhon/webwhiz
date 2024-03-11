@@ -1,4 +1,4 @@
-const EmailIcon = ({ width = 25, height = 25 }) => {
+const EmailIcon = ({ width = 32, height = 32 }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
