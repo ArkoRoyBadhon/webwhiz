@@ -150,12 +150,12 @@ export const footerData = [
     links: [
       {
         title: "alexgoat@gmail.com",
-        icon: <EmailIcon width={20} height={20} />,
+        icon: <EmailIcon />,
         link: "/",
       },
       {
         title: "+880 16096-55707",
-        icon: <PhoneIcon width={20} height={20} />,
+        icon: <PhoneIcon />,
         link: "/",
       },
       {

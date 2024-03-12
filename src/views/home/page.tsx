@@ -1,8 +1,8 @@
-import AboutSection from "@/components/about us/page";
-import BannerSection from "@/components/bannner/page";
-import BlogSection from "@/components/blog/page";
-import Contactsection from "@/components/contact/page";
-import ServiceSection from "@/components/services/page";
+import AboutSection from "@/components/about us/AboutUs";
+import BannerSection from "@/components/bannner/Banner";
+import BlogSection from "@/components/blog/Blog";
+import Contactsection from "@/components/contact/Contact";
+import ServiceSection from "@/components/services/Services";
 
 const HomeView = () => {
   return (

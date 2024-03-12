@@ -10,9 +10,11 @@
   max-width: 1440px;
   font-family: "Manrope", sans-serif;
 }
-.section-spacing {
-  padding-left: 150px;
-  padding-right: 150px;
+
+.container-mobile {
+  margin: 0 auto;
+  max-width: 375px;
+  font-family: "Manrope", sans-serif;
 }
 
 .box-shadow {
@@ -53,11 +55,14 @@
   z-index: -1;
 }
 
-
 @layer components {
   .custom-banner-title {
     @apply text-custom-black text-[64px] leading-[120%];
+    font-weight: 700;
+  }
 
+  .custom-banner-title-mobile {
+    @apply text-custom-black text-[32px] leading-[140%];
     font-weight: 700;
   }
   .custom-text-gradient {
@@ -73,5 +78,12 @@
     @apply text-orange text-[14px] font-bold uppercase;
     line-height: 160%;
     letter-spacing: 1.68px;
+  }
+  .section-spacing {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .section-spacing-mobile {
+    @apply px-[24px];
   }
 }
