@@ -8,14 +8,14 @@ import MenuIcon from "@/utils/mobileresponsive/menuIcon";
 
 const Navbar = () => {
   return (
-    <header className="container-mobile lg:container section-spacing-mobile lg:section-spacing pt-[32px]">
+    <header className="container section-spacing-mobile md:section-spacing-tab lg:section-spacing pt-[32px]">
       <div className="flex justify-between items-center">
         <div className="">
           <BrandLogoIcon />
         </div>
 
         <nav className="flex items-center md:flex-row-reverse lg:flex-row md:gap-[8px] lg:gap-[32px]">
-          <div className="block md:hidden lg:hidden">
+          <div className="block lg:hidden">
             <MenuIcon />
           </div>
           <ul className="hidden lg:flex gap-[32px] text-[14px] font-normal leading-[160%] capitalize items-center">

@@ -8,22 +8,22 @@ import ShareIcon from "@/utils/shareIcon";
 
 const BannerSection = () => {
   return (
-    <section className="container-mobile lg:container section-spacing-mobile lg:section-spacing pt-[53px]">
-      <div className="flex flex-col lg:flex-row justify-between w-full gap-[20px] items-center">
+    <section className="container-mobile lg:container section-spacing-mobile lg:section-spacing pt-[40px] lg:pt-[53px]">
+      <div className="flex flex-col md:flex-row justify-between w-full gap-[38px] lg:gap-[20px] items-center">
         <div className="">
           <div className="">
-            <p className="custom-banner-title-mobile lg:custom-banner-title text-center lg:text-left">Turning</p>
-            <p className="custom-banner-title-mobile lg:custom-banner-title text-center lg:text-left mt-[5.5px] mb-[8.5px]">
+            <p className="custom-banner-title-mobile md:custom-banner-title text-center md:text-left">Turning</p>
+            <p className="custom-banner-title-mobile lg:custom-banner-title text-center md:text-left mt-[5.5px] mb-[8.5px]">
               <span className="custom-text-gradient text-mark">
                 Imagination
               </span>{" "}
               into
             </p>
-            <p className="custom-banner-title-mobile lg:custom-banner-title text-center lg:text-left text-blue ">Innovation</p>
+            <p className="custom-banner-title-mobile lg:custom-banner-title text-center md:text-left text-blue ">Innovation</p>
           </div>
           <div className="relative">
-            <div className="hidden lg:absolute w-[4px] h-[65px] left-0 top-1 custom-bg-gradient rounded-[16px]"></div>
-            <p className="w-[327px] lg:w-[554px] text-center lg:text-left text-[16px] font-normal leading-[25.6px] mt-[16px] lg:ml-[16px]">
+            <div className="hidden md:block md:absolute w-[4px] h-[65px] left-0 top-1 custom-bg-gradient rounded-[16px]"></div>
+            <p className="w-[327px] lg:w-[554px] text-center md:text-left text-[16px] font-normal leading-[25.6px] mt-[16px] md:ml-[16px]">
               Welcome to my digital playground, where creativity knows no
               bounds. I'm a passionate designer and developer on a mission to
               turn innovative ideas into stunning digital realities.
@@ -36,7 +36,7 @@ const BannerSection = () => {
             </button>
           </div>
         </div>
-        <div className="relative w-[327px] lg:w-[550px] h-[526px]">
+        <div className="relative w-[327px] lg:w-[550px] h-[350px] lg:h-[526px]">
           <div className="absolute w-[295px] lg:w-[308px] h-[318px] lg:h-[481px] rounded-[16px] bg-[#FFF3EB] top-[-15px] lg:top-[-25px] left-[16px] lg:left-[126px] mt-[45px] lg:mt-[45px]"></div>
           <div className="flex absolute justify-center items-center w-full mt-[47px]">
           <Image
@@ -57,13 +57,13 @@ const BannerSection = () => {
           <div className="absolute top-[5px] right-[-15px] lg:top-[-2px] lg:right-[78px]">
             <Ellipse1 />
           </div>
-          <div className="absolute bottom-[160px] lg:bottom-[14px] left-[0px] lg:left-[119px]">
+          <div className="absolute bottom-[-16px] lg:bottom-[14px] left-[0px] lg:left-[119px]">
             <Ellipse2 />
           </div>
           <div className="hidden lg:absolute lg:flex py-[11px] px-[16px] items-center gap-[8px] bg-white top-[78px] rounded-[12px] box-shadow">
             <Image
               className="rounded-[47px]"
-              src="/desktop_img/Rectangle 54.png"
+              src="/desktop_img/Ellipse 26.png"
               alt=""
               width={47}
               height={47}
@@ -94,7 +94,7 @@ const BannerSection = () => {
               <p className="">25%</p>
             </div>
           </div>
-          <div className="absolute flex p-[16px] items-center gap-[8px] bg-white bottom-[160px] lg:bottom-[0%] right-[0px] lg:right-[20px] rounded-[12px] box-shadow">
+          <div className="absolute flex p-[16px] items-center gap-[8px] bg-white bottom-[-16px] lg:bottom-[0%] right-[0px] lg:right-[20px] rounded-[12px] box-shadow">
             <div className="rounded-[210px] h-[47px] w-[47px] bg-[#9965CF1A] flex justify-center items-center">
               <Image
                 className=""

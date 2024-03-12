@@ -1,3 +1,7 @@
+import ClockIcon from "@/utils/contactUsIcon/clockIcon";
+import EmailIcon from "@/utils/contactUsIcon/emailIcon";
+import OrgIcon from "@/utils/contactUsIcon/orgemailIcon";
+import PhoneIcon from "@/utils/contactUsIcon/phoneNumberIcon";
 import { contactData } from "@/utils/mocks/mocks";
 import Image from "next/image";
 
@@ -67,8 +71,45 @@ const Contactsection = () => {
             />
           </div>
 
-          <div className="absolute w-[261px] lg:w-[471px] h-[216px] lg:h-[288px] rounded-[16px] bg-light-grey top-[165px] lg:top-[31%] left-[30px] lg:left-[47%] flex flex-col gap-[24px] lg:gap-[32px] p-[24px] lg:p-[32px]">
-            {contactData &&
+          <div className="absolute w-[261px] lg:w-[471px] h-[216px] lg:h-[288px] rounded-[16px] bg-light-grey top-[165px] md:top-[0px] lg:top-[31%] left-[30px] md:left-[0px] lg:left-[47%] flex flex-col gap-[24px] lg:gap-[32px] p-[24px] lg:p-[32px]">
+            <div className="flex items-center text-[14px] lg:text-[16px] font-normal leading-[160%] gap-[8px]">
+              <span className="block lg:hidden">
+                <EmailIcon width={24} height={24} />
+              </span>
+              <span className="hidden lg:block">
+                <EmailIcon />
+              </span>
+              <p className="">michael.mitc@example.com</p>
+            </div>
+            <div className="flex items-center text-[14px] lg:text-[16px] font-normal leading-[160%] gap-[8px]">
+              <span className="block lg:hidden">
+                <PhoneIcon width={24} height={24} />
+              </span>
+              <span className="hidden lg:block">
+                <PhoneIcon />
+              </span>
+              <p className="">michael.mitc@example.com</p>
+            </div>
+            <div className="flex items-center text-[14px] lg:text-[16px] font-normal leading-[160%] gap-[8px]">
+              <span className="block lg:hidden">
+                <OrgIcon width={24} height={24} />
+              </span>
+              <span className="hidden lg:block">
+                <OrgIcon />
+              </span>
+              <p className="">michael.mitc@example.com</p>
+            </div>
+            <div className="flex items-center text-[14px] lg:text-[16px] font-normal leading-[160%] gap-[8px]">
+              <span className="block lg:hidden">
+                <ClockIcon width={24} height={24} />
+              </span>
+              <span className="hidden lg:block">
+                <ClockIcon />
+              </span>
+              <p className="">michael.mitc@example.com</p>
+            </div>
+
+            {/* {contactData &&
               contactData.map((item) => {
                 return (
                   <div
@@ -79,7 +120,7 @@ const Contactsection = () => {
                     <p className="">{item?.title}</p>
                   </div>
                 );
-              })}
+              })} */}
           </div>
         </div>
       </div>

@@ -21,13 +21,13 @@ type ITypeFooter = {
 
 const FooterSection = () => {
   return (
-    <footer className="w-full bg-custom-dark min-h-[453px] mt-[140px]">
-      <div className="container section-spacing bg-transparent">
-        <div className="flex justify-between pt-[32px]">
+    <footer className="w-full bg-custom-dark min-h-[453px] mt-[530px] lg:mt-[140px]">
+      <div className="container-mobile lg:container section-spacing-mobile lg:section-spacing bg-transparent">
+        <div className="flex flex-col lg:flex-row justify-between pt-[32px]">
           <div className="">
             <div className="section-name">Join Us</div>
             <div className="flex items-center gap-[10px] ">
-              <div className="text-white text-[32px] font-extrabold leading-[140%]">
+              <div className="text-white text-[20px] lg:text-[32px] font-extrabold leading-[140%]">
                 Subscribe for newsletter
               </div>
               <div className="border-[3.111px] border-solid border-orange p-[5.78px] rounded-full mt-1">
@@ -35,7 +35,7 @@ const FooterSection = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-between border border-gray-400 w-[370px] h-[46px] rounded-[80px] gap-[10px] mt-[10px]">
+          <div className="flex justify-between border border-gray-400 w-[278px] lg:w-[370px] h-[42px] lg:h-[46px] rounded-[80px] gap-[10px] mt-[16px] lg:mt-[10px]">
             <input
               className="focus:outline-none bg-transparent px-[16px]"
               placeholder="Enter your Email"
@@ -47,7 +47,7 @@ const FooterSection = () => {
           </div>
         </div>
 
-        <div className="mt-[62px] flex gap-[133px]">
+        <div className="mt-[62px] flex flex-col lg:flex-row gap-[133px]">
           <div className="">
             <div className="flex text-white gap-[8px]">
               <LogoIcon />
@@ -72,7 +72,7 @@ const FooterSection = () => {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-[44px]">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-[44px]">
             {footerData &&
               footerData.map((item, i) => {
                 return (
@@ -80,7 +80,7 @@ const FooterSection = () => {
                     <div className="absolute bg-blue-dark w-[2px] h-[37px]  left-[17px] bottom-[153px] transform rotate-[-90deg]"></div>
                     <h5
                       className={`text-white mb-[28px] text-[20px] font-bold leading-[150%] ${
-                        i === 2 && "ml-[10px]"
+                        i === 2 && "lg:ml-[10px]"
                       }`}
                     >
                       {item?.mainTitle}
@@ -90,7 +90,7 @@ const FooterSection = () => {
                         <div key={subLink?.title} className="mb-[14px]">
                           <div className=" flex ">
                             {subLink?.icon && (
-                              <div className="ml-[8px] mr-[08px]">
+                              <div className="lg:ml-[8px] mr-[08px]">
                                 {subLink?.icon}
                               </div>
                             )}
