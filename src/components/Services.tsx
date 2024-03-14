@@ -2,7 +2,7 @@ import { serviceData } from "@/utils/mocks/mocks";
 
 const ServiceSection = () => {
   return (
-    <section className="container section-spacing-mobile lg:section-spacing pt-[76px]">
+    <section className="container section-spacing-mobile lg:section-spacing pt-[50px] lg:pt-[184px]">
       <div className="section-name text-center md:text-left">
         services
       </div>

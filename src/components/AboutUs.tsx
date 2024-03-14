@@ -11,7 +11,7 @@ const AboutSection = () => {
     { label: "UI/UX design", percentage: 75 },
   ]);
   return (
-    <section className="container-mobile lg:container section-spacing-mobile lg:section-spacing pt-[53px] lg:pt-[76px]">
+    <section className="container section-spacing-mobile lg:section-spacing pt-[53px] lg:pt-[53px]">
       <div className="section-name text-center md:text-left">about us</div>
       <div className="flex flex-col md:flex-row items-center justify-between mb-[4px]">
         <div className="w-[327px] lg:w-[564px] text-custom-black text-[24px] lg:text-[40px] font-extrabold leading-[140%] text-center md:text-left">
@@ -42,12 +42,12 @@ const AboutSection = () => {
                   {status.label}
                 </div>
                 <div className="flex items-center gap-[10px]">
-                  <div className="progress md:w-[260px] lg:w-[412px]">
+                  <div className="progress w-[260px] lg:w-[412px]">
                     <div
                       className="fill rounded-[10px]"
                       style={{
                         width: `${status.percentage}%`,
-                        backgroundColor: "blue",
+                        backgroundColor: "#185AD9",
                       }}
                     ></div>
                   </div>
@@ -71,7 +71,9 @@ const AboutSection = () => {
               AboutUsData.map((item, i) => {
                 return (
                   <div
-                    className={`relative px-[16px] lg:px-0 ${i === 0 && "lg:pl-[0.5px]"}`}
+                    className={`relative px-[16px] lg:px-0 ${
+                      i === 0 && "lg:pl-[0.5px]"
+                    }`}
                   >
                     {i > 1 ? (
                       <></>

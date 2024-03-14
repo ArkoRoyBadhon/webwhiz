@@ -1,18 +1,24 @@
-import AboutSection from "@/components/about us/AboutUs";
-import BannerSection from "@/components/bannner/Banner";
-import BlogSection from "@/components/blog/Blog";
-import Contactsection from "@/components/contact/Contact";
-import ServiceSection from "@/components/services/Services";
+'use client'
+import AboutSection from "@/components/AboutUs";
+import BannerSection from "@/components/Banner";
+import BlogSection from "@/components/Blog";
+import ClientReview from "@/components/ClientReview";
+import Contactsection from "@/components/Contact";
+import PortfolioSection from "@/components/Portfolio";
+import ServiceSection from "@/components/Services";
+
 
 const HomeView = () => {
   return (
-    <>
+    <main>
       <BannerSection />
+      <PortfolioSection />
       <AboutSection />
       <ServiceSection />
+      <ClientReview />
       <Contactsection />
       <BlogSection />
-    </>
+    </main>
   );
 };
 

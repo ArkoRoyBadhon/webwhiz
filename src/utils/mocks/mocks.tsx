@@ -1,3 +1,4 @@
+import { TypeItem } from "@/components/Portfolio";
 import ArrowIcon from "../arrowIcon";
 import ClockIcon from "../contactUsIcon/clockIcon";
 import EmailIcon from "../contactUsIcon/emailIcon";
@@ -169,5 +170,57 @@ export const footerData = [
         link: "/",
       },
     ],
+  },
+];
+
+export const portfolioCategory = [
+  {
+    title: "All Project",
+    category: "all-project",
+  },
+  {
+    title: "UI/UX Design",
+    category: "ux-design",
+  },
+  {
+    title: "Graphic Design",
+    category: "graphic-design",
+  },
+  {
+    title: "Developments",
+    category: "development",
+  },
+];
+
+export const portfolioData: TypeItem[] = [
+  {
+    title: "img-1",
+    category: "ux-design",
+    img: "/desktop_img/portfolio/Rectangle 26.png",
+  },
+  {
+    title: "img-2",
+    category: "ux-design",
+    img: "/desktop_img/portfolio/Rectangle 28.png",
+  },
+  {
+    title: "img-3",
+    category: "graphic-design",
+    img: "/desktop_img/portfolio/Rectangle 26.png",
+  },
+  {
+    title: "img-4",
+    category: "graphic-design",
+    img: "/desktop_img/portfolio/Rectangle 28.png",
+  },
+  {
+    title: "img-5",
+    category: "development",
+    img: "/desktop_img/portfolio/Rectangle 28.png",
+  },
+  {
+    title: "img-6",
+    category: "development",
+    img: "/desktop_img/portfolio/Rectangle 26.png",
   },
 ];

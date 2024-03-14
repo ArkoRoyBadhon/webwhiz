@@ -2,13 +2,13 @@ import Ellipse1 from "@/utils/ellipse1";
 import Ellipse2 from "@/utils/ellipse2";
 import Image from "next/image";
 import React from "react";
-import ButtonCompo from "../shared/Button";
+import ButtonCompo from "./shared/Button";
 import ProfileIcon from "@/utils/profile_icon";
 import ShareIcon from "@/utils/shareIcon";
 
 const BannerSection = () => {
   return (
-    <section className="container-mobile lg:container section-spacing-mobile lg:section-spacing pt-[40px] lg:pt-[53px]">
+    <section className="container section-spacing-mobile lg:section-spacing pt-[40px] lg:pt-[53px] pb-[76px]">
       <div className="flex flex-col md:flex-row justify-between w-full gap-[38px] lg:gap-[20px] items-center">
         <div className="">
           <div className="">
@@ -47,7 +47,7 @@ const BannerSection = () => {
               height={433}
             />
             <Image
-              className="block md:hidden"
+              className="block lg:hidden"
               src="/mobile_img/Rectangle 55.png"
               alt=""
               width={327}
@@ -60,7 +60,7 @@ const BannerSection = () => {
           <div className="absolute bottom-[-16px] lg:bottom-[14px] left-[0px] lg:left-[119px]">
             <Ellipse2 />
           </div>
-          <div className="hidden lg:absolute lg:flex py-[11px] px-[16px] items-center gap-[8px] bg-white top-[78px] rounded-[12px] box-shadow">
+          <div className="hidden md:absolute lg:flex py-[15px] px-[16px] items-center gap-[8px] bg-white top-[78px] rounded-[12px] box-shadow">
             <Image
               className="rounded-[47px]"
               src="/desktop_img/Ellipse 26.png"

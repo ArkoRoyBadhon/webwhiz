@@ -24,6 +24,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      gradientColorStops: theme => ({
+        'custom-gradient': {
+          'start': '#5F90F0', 
+          'end': '#185ad9',   
+        }
+      }),
       colors: {
         "custom-black": "#130929",
         "blue-light": "#5F90F0",

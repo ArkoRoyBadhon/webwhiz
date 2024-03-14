@@ -21,9 +21,9 @@ type ITypeFooter = {
 
 const FooterSection = () => {
   return (
-    <footer className="w-full bg-custom-dark min-h-[453px] mt-[530px] lg:mt-[140px]">
-      <div className="container-mobile lg:container section-spacing-mobile lg:section-spacing bg-transparent">
-        <div className="flex flex-col lg:flex-row justify-between pt-[32px]">
+    <footer className="w-full bg-custom-dark min-h-[453px] mt-[530px] md:mt-[260px] lg:mt-[140px]">
+      <div className="container section-spacing-mobile lg:section-spacing bg-transparent">
+        <div className="flex flex-col md:flex-row justify-between pt-[32px]">
           <div className="">
             <div className="section-name">Join Us</div>
             <div className="flex items-center gap-[10px] ">
@@ -37,28 +37,30 @@ const FooterSection = () => {
           </div>
           <div className="flex justify-between border border-gray-400 w-[278px] lg:w-[370px] h-[42px] lg:h-[46px] rounded-[80px] gap-[10px] mt-[16px] lg:mt-[10px]">
             <input
-              className="focus:outline-none bg-transparent px-[16px]"
+              className="focus:outline-none bg-transparent px-[16px] md:w-[100px] lg:w-full text-white"
               placeholder="Enter your Email"
               type="text"
             />
-            <button className=" w-[111px] px-[16px] py-[10px] custom-center rounded-[80px] text-white custom-bg-gradient capitalize text-[14px] font-semibold leading-[160%] outline-[1px]">
+            <button className=" lg:w-[111px] px-[16px] py-[10px] custom-center rounded-[80px] text-white custom-bg-gradient capitalize text-[14px] font-semibold leading-[160%] outline-[1px]">
               Subscribe
             </button>
           </div>
         </div>
 
-        <div className="mt-[62px] flex flex-col lg:flex-row gap-[133px]">
-          <div className="">
-            <div className="flex text-white gap-[8px]">
-              <LogoIcon />
-              <p className="font-extrabold text-[18px] leading-[150%]">
-                WebWhiz
+        <div className="mt-[62px] flex flex-col lg:flex-row gap-[40px] lg:gap-[133px]">
+          <div className=" md:flex lg:block justify-between">
+            <div>
+              <div className="flex text-white gap-[8px]">
+                <LogoIcon />
+                <p className="font-extrabold text-[18px] leading-[150%]">
+                  WebWhiz
+                </p>
+              </div>
+              <p className="mt-[8px] w-[339px] text-[16px] font-normal leading-[160%] text-footer-gray">
+                Customer Feedback Analytic like it was Supposed to be!
               </p>
             </div>
-            <p className="mt-[8px] w-[339px] text-[16px] font-normal leading-[160%] text-footer-gray">
-              Customer Feedback Analytic like it was Supposed to be!
-            </p>
-            <div className="relative mt-[16px]">
+            <div className="hidden md:block md:relative mt-[16px]">
               <p className="text-white text-[16px] leading-[160%] font-normal">
                 Social Links
               </p>
@@ -72,12 +74,16 @@ const FooterSection = () => {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-[44px]">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-[44px]">
             {footerData &&
               footerData.map((item, i) => {
                 return (
                   <div key={i} className="relative">
-                    <div className="absolute bg-blue-dark w-[2px] h-[37px]  left-[17px] bottom-[153px] transform rotate-[-90deg]"></div>
+                    <div
+                      className={`absolute bg-blue-dark w-[2px] h-[37px]  left-[17px] bottom-[153px] transform rotate-[-90deg] ${
+                        i === 2 && "lg:ml-[10px]"
+                      }`}
+                    ></div>
                     <h5
                       className={`text-white mb-[28px] text-[20px] font-bold leading-[150%] ${
                         i === 2 && "lg:ml-[10px]"
@@ -103,6 +109,19 @@ const FooterSection = () => {
                 );
               })}
           </div>
+          <div className="block md:hidden relative mt-[16px]">
+              <p className="text-white text-[16px] leading-[160%] font-normal">
+                Social Links
+              </p>
+              <div className="absolute bg-blue-dark w-[2px] h-[27px]  left-[108px] transform top-0 rotate-[-90deg]"></div>
+              <div className="flex gap-[8px] mt-[16px]">
+                <TwitterIcon />
+                <LinkedinIcon />
+                <TelegramIcon />
+                <BehanceIcon />
+                <DribbleIcon />
+              </div>
+            </div>
         </div>
 
         <hr className="w-[1140] bg-[#0E1025] mt-[26px] opacity-20" />

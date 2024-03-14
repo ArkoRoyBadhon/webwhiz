@@ -7,8 +7,8 @@ import Image from "next/image";
 
 const Contactsection = () => {
   return (
-    <section className="container-mobile lg:container section-spacing-mobile lg:section-spacing pt-[42px] lg:pt-[76px] min-h-[515px]">
-      <div className="flex flex-col-reverse md:flex-row justify-between gap-[16px] lg:gap-[80px] relative">
+    <section className="container section-spacing-mobile lg:section-spacing pt-[42px] lg:pt-[100px] min-h-[515px]">
+      <div className="flex flex-col-reverse md:flex-row justify-between gap-[8px] lg:gap-[80px] relative">
         <div className="flex flex-col w-[356px] h-[282px]">
           <h5 className="text-[24px] lg:text-[40px] text-left font-extrabold leading-[140%] text-custom-black">
             Contact Us
@@ -52,9 +52,9 @@ const Contactsection = () => {
             </form>
           </div>
         </div>
-        <div className="mb-[465px] lg:mb-0 bg-red-200 lg:mt-[-13.5px]">
-          <div className="absolute w-[55px] lg:w-[117px] h-[55px] lg:h-[117px] rounded-[8px] bg-light-grey top-[-15px] lg:top-[-26px] left-[-15px] lg:left-[58%]"></div>
-          <div className="absolute top-[13px] right-[0px] lg:right-[-149px]">
+        <div className="mb-[400px] lg:mb-0 bg-red-200 lg:mt-[-13.5px]">
+          <div className="absolute w-[55px] lg:w-[117px] h-[55px] lg:h-[117px] rounded-[8px] bg-light-grey top-[-15px] lg:top-[-26px] left-[-15px] md:left-[400px] lg:left-[58%]"></div>
+          <div className="absolute top-[13px] right-[0px]  lg:right-[-149px]">
             <Image
               className="hidden lg:block"
               src="/desktop_img/Rectangle 63.png"
@@ -71,7 +71,7 @@ const Contactsection = () => {
             />
           </div>
 
-          <div className="absolute w-[261px] lg:w-[471px] h-[216px] lg:h-[288px] rounded-[16px] bg-light-grey top-[165px] md:top-[0px] lg:top-[31%] left-[30px] md:left-[0px] lg:left-[47%] flex flex-col gap-[24px] lg:gap-[32px] p-[24px] lg:p-[32px]">
+          <div className="absolute w-[261px] lg:w-[471px] h-[216px] lg:h-[288px] rounded-[16px] bg-light-grey top-[165px] md:top-[200px] lg:top-[31%] left-[30px] md:left-[460px] lg:left-[47%] flex flex-col gap-[24px] lg:gap-[32px] p-[24px] lg:p-[32px]">
             <div className="flex items-center text-[14px] lg:text-[16px] font-normal leading-[160%] gap-[8px]">
               <span className="block lg:hidden">
                 <EmailIcon width={24} height={24} />
