@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
 .container {
   /* background: #fff; */
   margin: 0 auto;
@@ -84,6 +89,23 @@
     @apply px-[24px];
   }
   .custom-border-gradient {
-    background-image: linear-gradient(45deg, #FFD700, #FF8C00);
+    background-image: linear-gradient(45deg, #ffd700, #ff8c00);
+  }
+}
+
+.slick-list {
+  padding: 0 20px; /* Adjust the padding as needed */
+}
+
+/* Optional: To target specific breakpoints */
+@media screen and (min-width: 768px) {
+  .slick-list {
+    padding: 0 30px; /* Adjust the padding for larger devices */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .slick-list {
+    padding: 0 40px; /* Adjust the padding for even larger devices */
   }
 }

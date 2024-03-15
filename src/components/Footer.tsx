@@ -35,13 +35,13 @@ const FooterSection = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-between border border-gray-400 w-[278px] lg:w-[370px] h-[42px] lg:h-[46px] rounded-[80px] gap-[10px] mt-[16px] lg:mt-[10px]">
+          <div className="flex justify-between border border-gray-400 w-[280px] lg:w-[370px] h-[42px] lg:h-[46px] rounded-[80px] md:gap-[5px] lg:gap-[10px] mt-[16px] lg:mt-[10px]">
             <input
-              className="focus:outline-none bg-transparent px-[16px] md:w-[100px] lg:w-full text-white"
+              className="focus:outline-none bg-transparent px-[16px] w-[179px] md:w-[160px] lg:w-full text-white"
               placeholder="Enter your Email"
               type="text"
             />
-            <button className=" lg:w-[111px] px-[16px] py-[10px] custom-center rounded-[80px] text-white custom-bg-gradient capitalize text-[14px] font-semibold leading-[160%] outline-[1px]">
+            <button className=" lg:w-[155px] px-[16px] py-[10px] custom-center rounded-[80px] text-white custom-bg-gradient capitalize text-[14px] font-semibold leading-[160%] outline-[1px]">
               Subscribe
             </button>
           </div>

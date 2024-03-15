@@ -8,7 +8,8 @@ import ShareIcon from "@/utils/shareIcon";
 
 const BannerSection = () => {
   return (
-    <section className="container section-spacing-mobile lg:section-spacing pt-[40px] lg:pt-[53px] pb-[76px]">
+    <section>
+      <div className="container section-spacing-mobile lg:section-spacing pt-[40px] lg:pt-[53px] pb-[76px]">
       <div className="flex flex-col md:flex-row justify-between w-full gap-[38px] lg:gap-[20px] items-center">
         <div className="">
           <div className="">
@@ -115,6 +116,7 @@ const BannerSection = () => {
           </div>
         </div>
       </div>
+    </div>
     </section>
   );
 };

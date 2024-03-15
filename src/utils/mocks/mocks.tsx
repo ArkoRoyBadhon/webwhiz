@@ -203,24 +203,24 @@ export const portfolioData: TypeItem[] = [
     category: "ux-design",
     img: "/desktop_img/portfolio/Rectangle 28.png",
   },
-  {
-    title: "img-3",
-    category: "graphic-design",
-    img: "/desktop_img/portfolio/Rectangle 26.png",
-  },
-  {
-    title: "img-4",
-    category: "graphic-design",
-    img: "/desktop_img/portfolio/Rectangle 28.png",
-  },
-  {
-    title: "img-5",
-    category: "development",
-    img: "/desktop_img/portfolio/Rectangle 28.png",
-  },
-  {
-    title: "img-6",
-    category: "development",
-    img: "/desktop_img/portfolio/Rectangle 26.png",
-  },
+  // {
+  //   title: "img-3",
+  //   category: "graphic-design",
+  //   img: "/desktop_img/portfolio/Rectangle 26.png",
+  // },
+  // {
+  //   title: "img-4",
+  //   category: "graphic-design",
+  //   img: "/desktop_img/portfolio/Rectangle 28.png",
+  // },
+  // {
+  //   title: "img-5",
+  //   category: "development",
+  //   img: "/desktop_img/portfolio/Rectangle 28.png",
+  // },
+  // {
+  //   title: "img-6",
+  //   category: "development",
+  //   img: "/desktop_img/portfolio/Rectangle 26.png",
+  // },
 ];

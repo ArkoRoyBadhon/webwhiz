@@ -4,9 +4,10 @@ import Image from "next/image";
 
 const ClientReview = () => {
   return (
-    <section className="container section-spacing-mobile lg:section-spacing pt-[60px] lg:pt-[165px]">
-      <div className="flex flex-col lg:flex-row justify-between gap-[32px] relative">
-        <div className="flex flex-col lg:w-[356px] lg:h-[282px]">
+    <section>
+      <div className="container section-spacing-mobile lg:section-spacing pt-[60px] lg:pt-[165px]">
+      <div className="flex flex-col lg:flex-row justify-between lg:gap-[30px] relative">
+        <div className="flex flex-col lg:w-[300px] lg:h-[282px]">
           <h5 className="text-[24px] lg:text-[40px] text-left font-extrabold leading-[140%] text-custom-black">
             Client Reviews
           </h5>
@@ -80,6 +81,7 @@ const ClientReview = () => {
           </div>
         </div>
       </div>
+    </div>
     </section>
   );
 };

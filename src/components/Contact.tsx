@@ -7,7 +7,8 @@ import Image from "next/image";
 
 const Contactsection = () => {
   return (
-    <section className="container section-spacing-mobile lg:section-spacing pt-[42px] lg:pt-[100px] min-h-[515px]">
+    <section>
+      <div className="container section-spacing-mobile lg:section-spacing pt-[42px] lg:pt-[100px] min-h-[515px]">
       <div className="flex flex-col-reverse md:flex-row justify-between gap-[8px] lg:gap-[80px] relative">
         <div className="flex flex-col w-[356px] h-[282px]">
           <h5 className="text-[24px] lg:text-[40px] text-left font-extrabold leading-[140%] text-custom-black">
@@ -124,6 +125,7 @@ const Contactsection = () => {
           </div>
         </div>
       </div>
+    </div>
     </section>
   );
 };
