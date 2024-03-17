@@ -2,7 +2,6 @@ import ClockIcon from "@/utils/contactUsIcon/clockIcon";
 import EmailIcon from "@/utils/contactUsIcon/emailIcon";
 import OrgIcon from "@/utils/contactUsIcon/orgemailIcon";
 import PhoneIcon from "@/utils/contactUsIcon/phoneNumberIcon";
-import { contactData } from "@/utils/mocks/mocks";
 import Image from "next/image";
 
 const Contactsection = () => {

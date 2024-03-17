@@ -16,10 +16,10 @@ const AboutSection = () => {
         <p className="section-name text-center md:text-left">about us</p>
         <div className="flex flex-col md:flex-row items-center justify-between mt-[4px] mb-[4px]">
           <div className="w-[327px] lg:w-[564px] text-custom-black text-[24px] lg:text-[40px] font-extrabold leading-[140%] text-center md:text-left">
-            <p className="">
+            <h2 className="">
               We are turning products into{" "}
               <span className="text-blue-400 text-mark">Timeless elegance</span>
-            </p>
+            </h2>
           </div>
           <div className="relative">
             <div className="hidden md:block md:absolute w-[4px] h-[65px] left-0 top-1 custom-bg-gradient rounded-[16px] mt-[-21px]"></div>

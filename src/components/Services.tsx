@@ -6,11 +6,11 @@ const ServiceSection = () => {
       <div className="container section-spacing-mobile lg:section-spacing pt-[50px] lg:pt-[184px]">
         <div className="section-name text-center md:text-left">services</div>
         <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="w-[327px] lg:w-[516px] text-custom-black text-[24px] lg:text-[40px] font-extrabold leading-[140%] text-center md:text-left">
+          <h2 className="w-[327px] lg:w-[516px] text-custom-black text-[24px] lg:text-[40px] font-extrabold leading-[140%] text-center md:text-left">
             Our{" "}
             <span className="text-blue-400 text-mark">satisfied customers</span>{" "}
             share their stories
-          </div>
+          </h2>
           <div className="relative">
             <div className="hidden md:block md:absolute w-[4px] h-[65px] left-0 top-1 custom-bg-gradient rounded-[16px] mt-[-28px]"></div>
             <p className="hidden lg:block w-[498px] text-[16px] font-normal leading-[25.6px] ml-[16px] mt-[-28px]">
@@ -28,7 +28,7 @@ const ServiceSection = () => {
           {serviceData &&
             serviceData.map((item) => {
               return (
-                <div key={item?.title} className="p-[32px] box-shadow">
+                <div key={item?.title} className="p-[32px] box-shadow rounded-[32px] hover:outline outline-blue-light">
                   <div className="flex justify-between items-start">
                     <div className="w-[54px] lg:w-[80px] h-[54px] lg:h-[80px] bg-blue-300 rounded-[16px] custom-center p-[12px]">
                       {item?.categoryIcon}

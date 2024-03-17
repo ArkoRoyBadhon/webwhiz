@@ -76,12 +76,12 @@ const PortfolioSection = () => {
           <div className="section-name text-center md:text-left">portfolio</div>
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="w-[327px] lg:w-[564px] text-custom-black text-[24px] lg:text-[40px] font-extrabold leading-[140%] text-center md:text-left pt-[5px]">
-              <p className="">
+              <h2 className="">
                 Discovering digital mastery and {""}
                 <span className="text-blue-400 text-mark">
                   Creative innovation
                 </span>{" "}
-              </p>
+              </h2>
             </div>
             <div className="relative">
               <div className="hidden md:block md:absolute w-[4px] h-[65px] left-[-8px] top-1 custom-bg-gradient rounded-[16px] mt-[-21px]"></div>
@@ -243,10 +243,10 @@ const PortfolioSection = () => {
                   })}
               </Slider>
             </div> */}
-          <div className=" absolute bottom-[20px] lg:bottom-[48px] right-[130px]">
+          <div className=" absolute bottom-[20px] lg:bottom-[45px] right-[188px]">
             <SliderBtn />
             {/* <SliderBtn previous={previous} next={next} /> */}
-            <div className="hidden md:block absolute bottom-[-415px] md:bottom-[-165px]  lg:bottom-[12px] custom-center gap-[8px] left-[75px] lg:left-[-526px]">
+            <div className="hidden md:flex absolute bottom-[-415px] md:bottom-[-165px]  lg:bottom-[12px] custom-center gap-[8px] left-[75px] lg:left-[-526px] ">
               <div
                 className={`w-[50px] h-[4px] rounded-[3px] custom-bg-gradient ${
                   isActive === "1" ? "" : "opacity-15"

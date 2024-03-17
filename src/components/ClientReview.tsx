@@ -8,9 +8,9 @@ const ClientReview = () => {
       <div className="container section-spacing-mobile lg:section-spacing pt-[60px] lg:pt-[165px]">
       <div className="flex flex-col lg:flex-row justify-between lg:gap-[30px] relative">
         <div className="flex flex-col lg:w-[300px] lg:h-[282px]">
-          <h5 className="text-[24px] lg:text-[40px] text-left font-extrabold leading-[140%] text-custom-black">
+          <h2 className="text-[24px] lg:text-[40px] text-left font-extrabold leading-[140%] text-custom-black">
             Client Reviews
-          </h5>
+          </h2>
           <div className="relative flex mt-[5px] lg:mt-[12px] ">
             <div className="hidden md:block lg:absolute w-[4px] h-[52px] left-0 top-0 custom-bg-gradient rounded-[16px]"></div>
             <p className="w-[314px] lg:w-[314px] text-[16px] font-normal leading-[25.6px] md:ml-[16px]">
@@ -47,10 +47,10 @@ const ClientReview = () => {
                   <div className="p-[24px] bg-white rounded-md lg:w-[456px] lg:h-[170px]">
                     <div className="flex justify-between">
                       <div>
-                        <h6 className="text-[20px] font-bold leading-[150%]">
+                        <h6 className="text-[20px] font-bold leading-[150%] line-clamp-1">
                           Maria Sarapavoo
                         </h6>
-                        <p className="text-[14px] font-normal leading-[160%]">
+                        <p className="text-[14px] font-normal leading-[160%] line-clamp-1">
                           Whistleblower and privacy advocate
                         </p>
                       </div>
@@ -58,7 +58,7 @@ const ClientReview = () => {
                         <p className="">4.5</p> <span><StarIcon /></span>
                       </div>
                     </div>
-                    <p className="mt-[16px] text-[16px] leading-[160%] font-normal">
+                    <p className="mt-[16px] text-[16px] leading-[160%] font-normal line-clamp-2">
                       The team at WebWhiz consistently delivered outstanding
                       results surpassing our expectations in{" "}
                     </p>

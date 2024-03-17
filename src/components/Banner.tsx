@@ -11,16 +11,16 @@ const BannerSection = () => {
     <section>
       <div className="container section-spacing-mobile lg:section-spacing pt-[40px] lg:pt-[53px] pb-[76px]">
       <div className="flex flex-col md:flex-row justify-between w-full gap-[38px] lg:gap-[20px] items-center">
-        <div className="">
+        <div className="w-[566px]">
           <div className="">
-            <p className="custom-banner-title-mobile md:custom-banner-title text-center md:text-left">Turning</p>
-            <p className="custom-banner-title-mobile lg:custom-banner-title text-center md:text-left mt-[5.5px] mb-[8.5px]">
+            <h1 className="custom-banner-title-mobile md:custom-banner-title text-center md:text-left">Turning</h1>
+            <h1 className="custom-banner-title-mobile lg:custom-banner-title text-center md:text-left mt-[5.5px] mb-[8.5px]">
               <span className="custom-text-gradient text-mark">
                 Imagination
               </span>{" "}
               into
-            </p>
-            <p className="custom-banner-title-mobile lg:custom-banner-title text-center md:text-left text-blue ">Innovation</p>
+            </h1>
+            <h1 className="custom-banner-title-mobile lg:custom-banner-title text-center md:text-left text-blue ">Innovation</h1>
           </div>
           <div className="relative">
             <div className="hidden md:block md:absolute w-[4px] h-[65px] left-0 top-1 custom-bg-gradient rounded-[16px]"></div>
@@ -78,7 +78,7 @@ const BannerSection = () => {
               </p>
             </div>
           </div>
-          <div className="absolute flex py-[14px] px-[16.5px] items-center gap-[8px] bg-white top-[6px] lg:top-[37.5%] right-[175px] lg:right-[32px] rounded-[12px] box-shadow w-[165px] lg:w-[138px]">
+          <div className="absolute flex py-[14px] px-[16.5px] items-center gap-[8px] bg-white top-[6px] lg:top-[37.5%] right-[175px] lg:right-[6px] rounded-[12px] box-shadow w-[165px]">
             <div className="rounded-[210px] h-[32px] w-[32px] bg-[#9965CF1A] p-[8px] flex justify-center items-center">
               <ProfileIcon />
             </div>
